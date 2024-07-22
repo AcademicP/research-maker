@@ -51,3 +51,4 @@ El sistema tiene un despliegue que se basa en el siguiente diagrama:
 </p>
 
 <p style="text-align:justify;">Para desarrollo, debe usar el comando "npm install" para las dependencias y  debe correr ng serve. Para correr la aplicación en producción, Debe esta desplegado en un sistema CDN como cloudflare u otros parecidos.</p>
+<p>Para desplegar en github pages usa el las librerias gh-pages: ng deploy --base-href=/research-maker/</p>
