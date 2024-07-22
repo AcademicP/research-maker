@@ -1,27 +1,53 @@
-# ResearchMaker
+<h1 style="text-align:center;">MEMORIA DESCRIPTIVA <br /> ResearchMaker</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+## CAMPO DE APLICACION
 
-## Development server
+<p style="text-align:justify;">El sistema es una aplicacion que permite armar la estructura de una investigacion cientifica para novatos en la investigación. Esta aplicacion esta pensada para estudiantes de pregrado en las carreras de Informática y afines, donde se realiazan investigaciones aplicadas.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ANTECEDENTES DEL SOFTWARE
 
-## Code scaffolding
+<p style="text-align:justify;">Muchos estudiantes de pregrado se encuentrado con el dilema de la generacion de sus proyectos de tesis o la ejecución de esta. Por tanto, cuando un estudiante ya tiene la idea de sus investigación, esta aplicación le ayuda a usar una estructura de su documento que le permitirá olvidarse de la estructura y concnetrarse pensar en las iniciativas para realizar la investigación.</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## OBJETIVOS DEL SOFTWARE
+<p style="text-align:justify;">Guiar en la elaboracion del proyecto de tesis o de un artículo cientifico.</p>
 
-## Build
+## FUNCIONALIDAD DEL SOFTWARE
+<p style="text-align:justify;">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Sincronizacion Objetivo, Problema, Hipotesis.- Permite al definir un objetivo, auto sugerir el problema y la hipotesis en caso la investigación tenga hipotesis.
 
-## Running unit tests
+* Definición de la introducción.- Mediante partes claves e identificadas el usuario llena estas partes y la aplicación genera el borrador de la introducción.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Tabla de Antecedentes.-  Permite evidenciar el analisis de los atecedentes, asi como elaborar la redacción de los antecedentes del estudio.
 
-## Running end-to-end tests
+* Metodologia y ejecuión de la investigación.-  Si el usuario considera tambien puede narrar las secciones de Metodologia, Resultados, Conclusiones y trabajos futuros.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Exportar a PDF.- Permite al usuario, generar un documento en formato PDF con todo el contenido de los ingresados.
 
-## Further help
+* Compartir.- Permite al usuario, mediante un enlace, copiar y compartir el documento a otros usuarios. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* Cambios de modo de visualización.- Permite al usuario, visualizar tanto el modo Edicion, como el modo vista previa.
+</p>
+
+## ESTRUCTURA DEL SOFTWARE
+<p style="text-align:justify;">El sistema utiliza tecnologia de software libre basada informacion en JSON. Esta creado con el framework Angular 18. Utiliza una almacenamiento local del navegador. Los requirimientos minimos para el funcionamiento del servidor con el sistema son:</p>
+
+* Computador con mínimo 4GB de RAM.
+* Espacio destinado en disco duro promedio de 200MB.
+* Corre en sistemas operativos Linux Ubuntu, CentOS, RedHat siempre que cuente con un navegador web.
+
+<p style="text-align:justify;">El software está preparado para funcionar en cualquier dispositivo, pc, mobile, tabletas siempre y cuando se cuente con internet en el dispositivo. Al ser una aplicacion Frontend, no cuenta con una base de datos compleja, sin embargo se registran en los almacenamientos del navegador los siguientes datos:</p>
+
+<p style="text-align:center;">
+<img src="docs/data.png"/>
+</p>
+
+<p style="text-align:justify;">
+El sistema tiene un despliegue que se basa en el siguiente diagrama:
+</p>
+
+<p style="text-align:center">
+<img src="docs/deploy.png"/>
+</p>
+
+<p style="text-align:justify;">Para desarrollo, debe usar el comando "npm install" para las dependencias y  debe correr ng serve. Para correr la aplicación en producción, Debe esta desplegado en un sistema CDN como cloudflare u otros parecidos.</p>
