@@ -93,7 +93,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/AcademicP/research-maker.git",
+            "branch": "gh-pages"  
+          }
         }
       }
     }
